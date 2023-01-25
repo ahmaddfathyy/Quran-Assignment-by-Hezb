@@ -2,9 +2,9 @@
 
 // Connection to the database
 $host = 'localhost';
-$dbname = 'your_db_name';
-$username = 'your_username';
-$password = 'your_password';
+$dbname = 'hezb';
+$username = 'hezb';
+$password = '12345678';
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
