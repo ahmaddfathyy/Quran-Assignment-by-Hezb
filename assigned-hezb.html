@@ -1,0 +1,13 @@
+
+<head>
+    <link rel="stylesheet" href="./css/styleassigned.css">
+</head>
+<body>
+    <h1 id="assigned-hezb"></h1>
+    <script src="main.js"></script>
+    <script>
+        let fromHezb = localStorage.getItem("fromHezb");
+        let toHezb = localStorage.getItem("toHezb");
+        document.getElementById("assigned-hezb").innerHTML = `You are assigned Hezbs from ${fromHezb} to ${toHezb}`;
+    </script>
+</body>
